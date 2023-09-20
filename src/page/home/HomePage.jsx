@@ -1,19 +1,25 @@
 import Article from "../../components/article/Article";
 import AllCards from "../../components/card/AllCards";
+import Cta from "../../components/cta/Cta";
+import AddLink from "../../components/footer/AddLink";
 import Header from "../../components/header/Header";
+import Navbar from "../../components/header/Navbar";
 import Numbers from "../../components/numbers/Numbers";
 import Statistics from "../../components/statistics/Statistics";
 
+import styles from './HomePage.module.css'
 function HomePage() {
   const siteName = "آونگ سرویس";
   const cityName = "تهران";
   const number = "0206_039_0912"; //REVERS
-  const hiroImage = "./assets/avangserviceCom6.jpg"; 
+  const hiroImage = "/images/avangserviceCom6.jpg"; 
   return (
-    <>
+    <div className={styles.home}>
+    <Navbar siteName={siteName} />
+
       <Header siteName={siteName} cityName={cityName} hiroImage={hiroImage} />
 
-      <Article img="./assets/avangserviceCom3.jpg">
+      <Article img="/images/avangserviceCom3.jpg">
         {
           <>
             <h2>خدمات فوری {siteName}</h2>
@@ -32,7 +38,7 @@ function HomePage() {
       <AllCards />
       <Statistics />
 
-      <Article img="./assets/avangserviceCom5.jpg">
+      <Article img="/images/avangserviceCom5.jpg">
         {
           <>
             <h2>نشانه های گرفتگی لوله:</h2>
@@ -47,7 +53,9 @@ function HomePage() {
           </>
         }
       </Article>
-    </>
+      <Cta/>
+
+    </div>
   );
 }
 

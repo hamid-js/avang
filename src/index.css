@@ -69,35 +69,76 @@ Medium: 11px
 } */
 
 
+@font-face {
+  font-family: 'iranSans';
+  src: url('/fonts/IRANSans-UltraLight-web.ttf') format('ttf');
+  font-weight: lighter;
+}
+@font-face {
+  font-family: 'iranSans';
+  src: url('/fonts/IRANSans-Light-web.ttf') format('ttf');
+  font-weight: light;
+}
+@font-face {
+  font-family: 'iranSans';
+  src: url('/fonts/IRANSans-Medium-web.ttf') format('ttf');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('/fonts/IRANSans-Bold-web.ttf') format('ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'iranSans';
+  src: url('/fonts/IRANSans-web.ttf') format('ttf');
+  font-weight: 100;
+}
+
+
+
 :root {
-  --site-color-1: #eda005;
-  --site-color-2: darkblue;
-  --site-color-3: blueviolet;
-  --site-color-4: #eda005;
-  --site-color-5: rgb(73, 224, 255);
-  --site-color-6: rgba(2, 103, 107, 1);
-  --site-color-7:   #1bfc57
-  ;
+  --button-color: #6B0972;
+  --title-color: #CF32DA;
+  --cta-color:blueviolet;
+  --navbar-color: darkblue;
+  --footer-color:darkblue;
+  --hiro-color-1: rgb(0, 160, 192);
+  --hiro-color-2: rgba(2, 103, 107, 1);
+  --hiro-color-3: #e700f8;
+  
+  --link-color-1:   #1bfc57;
+  --link-color-2: #eda005;
+  --link-color-3: #4632DA;
+  --link-color-4: #CF32DA;
+
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "iranSans", sans-serif;
+  
+ 
+ 
 }
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
   direction: rtl;
+  
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "iranSans", sans-serif;
   line-height: 1;
-  font-weight: 400;
+  font-weight: lighter;
   color: #555;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
+

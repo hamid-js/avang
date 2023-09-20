@@ -11,7 +11,7 @@ function Article({img ,children}) {
             {children}
             <div>
 
-            <Button>
+            <Button link={"tel: 09104536070"}>
                 تماس با کارشناس
             </Button>
             </div>

@@ -17,7 +17,8 @@ function Footer() {
           </ul>
         </section>
       </div>
-      
+      <AddLink/>
+
     </footer>
     
     </>

@@ -19,7 +19,7 @@ function Header( {siteName ,cityName ,hiroImage}) {
 
             </p>
             </div>
-           <div > <Button>
+           <div > <Button link={"tel: 09120390206"}>
                 تماس با ما
             </Button></div>
             

@@ -10,10 +10,10 @@
 }
 
 .container h2 {
-  color: var(--site-color-2);
+  color: var(--title-color);
 }
 
-.smallBtn {
+.areaButton {
   display: flex;
 
   justify-content: center;
@@ -23,8 +23,8 @@
 
 /*RESPONSIVE BELOW 656px  */
 @media (max-width: 41em) {
-  .smallBtn {
-    flex-direction: column;
+  .areaButton {
+   flex-wrap: wrap;
   }
   .container h2 {
     font-size: 3.6rem;

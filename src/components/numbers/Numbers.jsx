@@ -4,21 +4,23 @@ function Numbers({ number, cityName }) {
   return (
     <div className={styles.container}>
       <h2>لوله بازکنی در همه مناطق {cityName}</h2>
-      <Button>مدیریت تمام شعب</Button>
+      <Button link={"tel: 09120390206"}>مدیریت تمام شعب</Button>
       <h3>{number}</h3>
 
-      <div className={styles.smallBtn}>
-        <div className={styles.btnBox}>
-          <Button small={true}>شمال {cityName}</Button>
-          <Button>غرب {cityName}</Button>
+      <div className={styles.areaButton}>
+        <div className={styles.area}>
+          <Button link={"tel: 02122919030"} small={true}>
+            شمال {cityName}
+          </Button>
+          <Button link={"tel: 02155900040"}>غرب {cityName}</Button>
         </div>
-        <div className={styles.btnBox}>
-          <Button>جنوب {cityName}</Button>
-          <Button>مرکز {cityName}</Button>
+        <div className={styles.area}>
+          <Button link={"tel: 09120390206"}>جنوب {cityName}</Button>
+          <Button link={"tel: 02133474030"}>مرکز {cityName}</Button>
         </div>
-        <div className={styles.btnBox}>
-          <Button>شرق {cityName}</Button>
-          <Button>حومه {cityName} </Button>
+        <div className={styles.area}>
+          <Button link={"tel: 02177725020"}>شرق {cityName}</Button>
+          <Button link={"tel: 09104536070"}>حومه {cityName} </Button>
         </div>
       </div>
     </div>

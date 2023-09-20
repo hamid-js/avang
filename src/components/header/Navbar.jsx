@@ -1,13 +1,13 @@
 import Button from '../button/Button'
 import styles from './Navbar.module.css'
 
-function Navbar() {
+function Navbar( {siteName}) {
     return (
         <div className={styles.container}>
-            <Button>
-           تماس باما
+            <Button link={"https://avangservice.com" } >
+           {siteName}
             </Button>
-            <Button>
+            <Button link={"tel: 09120390206"}>
             بازدید رایگان
             </Button>
         </div>

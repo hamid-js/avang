@@ -1,27 +1,31 @@
- /* for AddLink file */
+/* for AddLink file */
+
+.ads {
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  font-size: 3rem;
+  font-weight: 600;
+  height: 8rem;
+}
 .ads a {
   text-decoration: none;
-  color: var(--site-color-7);
-
-
+  color: var(--link-color-2);
 }
-.adsSection{
-display: inline-block;
-    border-left: 3px solid blanchedalmond;
-    border-right: 3px solid blanchedalmond;
-    width: 50%;
-    height: 100%;
-    text-align: center;
-    padding: 1.8rem;
+.adsSection {
+  display: inline-block;
+  border-left: 3px solid blanchedalmond;
+  border-right: 3px solid blanchedalmond;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 2rem;
 }
-
-
-
+/* for AddLink file */
 
 .container {
   width: 100%;
   height: auto;
-  background-color: var(--site-color-2);
+  background-color: var(--footer-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -29,7 +33,6 @@ display: inline-block;
 }
 .container a {
   text-decoration: none;
-
 }
 
 .sectionContainer {
@@ -47,7 +50,6 @@ display: inline-block;
 }
 
 .links {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,45 +62,48 @@ display: inline-block;
   padding: 0.8rem 1.6rem;
   margin: 1.6rem;
   border-radius: 10px;
-  color:var(--site-color-1);
+  color: var(--link-color-1);
   font-weight: 500;
+  line-height: 3rem;
 }
 .title {
-  margin: 3.6rem 0 ;
+  margin: 3.6rem 0;
   font-size: 3rem;
   color: rgb(255, 255, 255);
 }
-.ads {
-  width: 100%;
-  background-color: rgb(43, 43, 43);
-  font-size: 3rem;
-  font-weight: 600;
-}
-
 
 /*RESPONSIVE BELOW 656px  */
-@media (max-width: 54em ) { 
+@media (max-width: 54em) {
   .ads {
-   
     font-size: 2.3rem;
     line-height: 3.6rem;
     text-align: center;
-    
-   
   }
 }
 
 /*RESPONSIVE BELOW 464px  */
 @media (max-width: 29em) {
   .links li {
-
-    font-size: 2.4rem;
- 
+    font-size: 2.3rem;
   }
   .ads {
-   
     font-size: 1.8rem;
-    
-   
+    margin: 0;
+    padding: 0;
+  }
+  .adsSection{
+
+        
+        padding: 2rem 0;
+    }
+}
+
+/*RESPONSIVE BELOW 344px  */
+@media (max-width: 21.5em) {
+  .links li {
+    font-size: 1.8rem;
+  }
+  .ads {
+    font-size: 1.3rem;
   }
 }

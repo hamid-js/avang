@@ -7,8 +7,10 @@ function Card({ cardData }) {
       <h3>{cardData.title}</h3>
       <p>{cardData.description}</p>
       
-        <Button>
+        <Button link={cardData.btnNumber}>
         {cardData.btnText}
+        
+
          </Button>
       
     </div>
