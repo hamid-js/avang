@@ -37,6 +37,9 @@
     padding: 1rem 0rem;
     line-height: 4.2rem;
   }
+  .container h3 {
+    font-size: 3rem;
+  }
 }
 
 /*RESPONSIVE BELOW 1056px  */

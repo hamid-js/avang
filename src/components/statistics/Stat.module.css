@@ -53,6 +53,16 @@
     }
   }
   
+
+/* BELOW 1344px (Smaler desktop) */
+
+@media (max-width: 84em) {
+  .title {
+    font-size: 2.4rem;
+   
+  }
+}
+  
 /*RESPONSIVE BELOW 1056px  */
 
   @media (max-width: 66em) {
@@ -62,14 +72,14 @@
     }
     .stat {
      
-      padding:1rem ;
+      padding:0rem ;
 
   
     }
     .stat img{
       width: 9rem;
       height: 9rem;
-      margin: rem;
+      margin: 0rem;
     }
   }
   /*RESPONSIVE BELOW 864px  */
@@ -80,6 +90,10 @@
     align-items: center;
     justify-content: start;
  
+   
+  }
+  .title {
+    font-size: 2rem;
    
   }
   stat {
