@@ -1,0 +1,168 @@
+.container {
+  width: 29%;
+  height: auto;
+  min-height: 80vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 20px 0px;
+  padding: 1.2rem;
+  margin: 3.8rem 1.8rem;
+  text-align: center;
+}
+.container img {
+  width: 10rem;
+  height: 10rem;
+  margin: 3.6rem;
+}
+
+.container h3 {
+  color: var(--site-color-2);
+  line-height: 6rem;
+}
+.container > p {
+  padding: 3.6rem 2.4rem;
+  line-height: 4.4rem;
+  font-weight: 500;
+}
+
+/* BELOW 1344px (Smaler desktop) */
+
+@media (max-width: 84em) {
+  .container p {
+    font-size: 2.8rem;
+    padding: 1rem 0rem;
+    line-height: 4.8rem;
+    font-weight: 500;
+  }
+}
+
+/*RESPONSIVE BELOW 1056px  */
+@media (max-width: 66em) {
+  
+
+  .container {
+    width: 45%;
+    min-height: 50vh;
+    font-size: 3rem;
+    padding: 2.2rem;
+  }
+}
+/*RESPONSIVE BELOW 864px  */ 
+@media (max-width: 54em) {
+  
+
+  .container {
+    width: 90%;
+    margin: 3rem;
+    min-height: 55vh;
+    font-size: 3rem;
+    padding: 3.2rem;
+  }
+  .container p {
+  padding: 5rem;
+  font-size: 3.4rem;
+  line-height: 6.8rem;
+  font-weight: 500;
+
+
+  }
+  .container img {
+    width: 14rem;
+    height: 14rem;
+  }
+  
+  .container h3 {
+    font-size: 4.8rem;
+  }
+ 
+}
+
+
+/*RESPONSIVE BELOW 656px  */
+@media (max-width: 41em) {
+  .container {
+    width: 100%;
+    margin: 2rem;
+    min-height: 65vh;
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+  .container p {
+  padding: 3.6rem;
+  font-size: 3rem;
+
+
+  }
+
+
+}
+
+/*RESPONSIVE BELOW 464px  */
+@media (max-width: 29em) {
+   
+  .container {
+    width: 100%;
+    margin: 0rem;
+    min-height: 40vh;
+    font-size: 2rem;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+ 
+  .container img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container h3 {
+    font-size: 3.8rem;
+    margin-top:1rem;
+ 
+
+  }
+  .container p {
+    padding: 0 2rem;
+
+    font-size: 2.4rem;
+    line-height: 4.4rem;
+  margin: 2rem 0;
+  
+    }
+}
+
+  /*RESPONSIVE BELOW 344px  */
+  @media (max-width: 21.5em) {
+    .container {
+      width: 100%;
+      margin: 0rem;
+      min-height: 40vh;
+      font-size: 2rem;
+      padding: 2rem 0;
+      margin-bottom: 2rem;
+    }
+   
+    .container img {
+      width: 6rem;
+      height: 6rem;
+     
+    }
+    
+    .container h3 {
+      font-size: 2.8rem;
+   
+  
+    }
+    .container p {
+      padding: 0 2rem;
+  
+      font-size: 2.2rem;
+      line-height: 3.4rem;
+    margin: 2rem 0;
+    
+      }
+  }

@@ -1,0 +1,172 @@
+/* css for Statistics.jsx file (container) */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end */
+
+
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 3rem;
+    
+
+  }
+
+  .stat img{
+    width: 10rem;
+    height: 10rem;
+    margin: 3.6rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.2rem;
+    color: var(--site-color-1);
+  }
+  
+  .count {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--site-color-2); 
+    animation: countUpAnimation 1s ease-in-out;
+  }
+  .countSign{
+    font-size: 2.4rem;
+
+  }
+  
+  @keyframes countUpAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+/*RESPONSIVE BELOW 1056px  */
+
+  @media (max-width: 66em) {
+    .title {
+      font-size: 2.6rem;
+   
+    }
+    .stat {
+     
+      padding:1rem ;
+
+  
+    }
+    .stat img{
+      width: 9rem;
+      height: 9rem;
+      margin: rem;
+    }
+  }
+  /*RESPONSIVE BELOW 864px  */
+@media (max-width: 54em) {
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+ 
+   
+  }
+  stat {
+    margin-top: 0rem;
+    padding: 0rem;
+
+
+  }
+
+  .stat img{
+    width: 18rem;
+    height: 18rem;
+    
+  }
+  
+  .title {
+    font-size: 4.8rem;
+  }
+  
+  .count {
+    font-size: 6.8rem;
+    margin: 3rem;
+  }
+  .countSign{
+    font-size: 2.4rem;
+
+  }
+
+}
+
+/*RESPONSIVE BELOW 656px  */
+@media (max-width: 41em) {
+  .container{
+    flex-direction: column;
+   
+  }
+  stat {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .stat img{
+    width: 10rem;
+    height: 10rem;
+    margin: 1;
+  }
+  
+  .title {
+    font-size: 3.8rem;
+  }
+  
+  .count {
+    font-size: 4.8rem;
+    margin: 1rem;
+  }
+  .countSign{
+    font-size:4rem;
+
+  }
+
+}
+
+
+/*RESPONSIVE BELOW 464px  */
+@media (max-width: 29em) {
+
+ 
+
+  .stat img{
+    width: 7rem;
+    height: 7rem;
+    margin: 0;
+  }
+  
+  .title {
+    font-size: 3.2rem;
+    margin: 0;
+  }
+  
+  .count {
+    font-size: 3.8rem;
+    margin: 2rem 0;
+    padding: 0;
+  }
+  .countSign{
+    font-size:3rem;
+    
+  }
+}
