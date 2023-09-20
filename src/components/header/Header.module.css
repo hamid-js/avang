@@ -9,6 +9,9 @@
   background: linear-gradient(90deg, var(--hiro-color-1) 0%, var(--hiro-color-2) 93%);
   color: #fff;
 }
+.boldName{
+  color: var(--link-color-2);
+}
 .right {
   width: 65%;
   display: flex;
