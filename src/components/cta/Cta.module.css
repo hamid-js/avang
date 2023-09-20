@@ -4,6 +4,9 @@
   background-color: var(--cta-color);
   position: fixed;
   bottom: 0;
+  border-top: 3px solid yellow;
+  box-shadow: rgba(255, 243, 11, 0.05) -5px -5px 20px -5px;
+
 }
 
 .container p {
