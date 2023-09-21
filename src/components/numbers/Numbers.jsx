@@ -8,20 +8,37 @@ function Numbers({ number, cityName }) {
       <h3>{number}</h3>
 
       <div className={styles.areaButton}>
+
         <div className={styles.area}>
           <Button link={"tel: 02122919030"} small={true}>
             شمال {cityName}
           </Button>
-          <Button link={"tel: 02155900040"}>غرب {cityName}</Button>
-        </div>
+          <p className={styles.btnNumber}>22-91-9030</p>
+
+          <Button link={"tel:09104536070 "}>غرب {cityName}</Button>
+          <p className={styles.btnNumber}>910-453-6070</p>
+          </div>
+
         <div className={styles.area}>
-          <Button link={"tel: 09120390206"}>جنوب {cityName}</Button>
+          <Button link={"tel: 02155900040"}>جنوب {cityName}</Button>
+          <p className={styles.btnNumber}>55-90-0040</p>
+
           <Button link={"tel: 02133474030"}>مرکز {cityName}</Button>
+          <p className={styles.btnNumber}>33-47-4030</p>
+
         </div>
+        
         <div className={styles.area}>
           <Button link={"tel: 02177725020"}>شرق {cityName}</Button>
+          <p className={styles.btnNumber}>77-72-5020</p>
+
+
           <Button link={"tel: 09104536070"}>حومه {cityName} </Button>
+          <p className={styles.btnNumber}>910-453-6070</p>
+
         </div>
+
+        
       </div>
     </div>
   );

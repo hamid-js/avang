@@ -19,6 +19,15 @@
   justify-content: center;
   align-items: center;
   margin: 2.4rem;
+  position: relative;
+
+}
+
+.btnNumber{
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: -3rem;
 }
 
 /*RESPONSIVE BELOW 656px  */
@@ -36,8 +45,13 @@
 @media (max-width: 29em) {
    
       .container h2 {
-        font-size: 2.8rem;
-        font-weight: bold;
+        font-size: 2.5rem;
+        font-weight: 900;
+        }
+        .btnNumber{
+          font-size: 1.5rem;
+         
+          margin-top: -2rem;
         }
   }
   /*RESPONSIVE BELOW 344px  */
@@ -46,6 +60,11 @@
     font-size: 2.1rem;
     font-weight: bold;
     margin: 0;padding: 0;
+    }
+
+    .btnNumber{
+      font-size: 1rem;
+     
     }
   .container h3 {
     font-size: 2.8rem;
