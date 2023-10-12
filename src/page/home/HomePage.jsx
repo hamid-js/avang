@@ -1,7 +1,6 @@
 import Article from "../../components/article/Article";
 import AllCards from "../../components/card/AllCards";
 import Cta from "../../components/cta/Cta";
-import AddLink from "../../components/footer/AddLink";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/header/Navbar";
 import Numbers from "../../components/numbers/Numbers";
@@ -9,17 +8,17 @@ import Statistics from "../../components/statistics/Statistics";
 
 import styles from './HomePage.module.css'
 function HomePage() {
-  const siteName = "آونگ سرویس";
-  const cityName = "تهران";
+  const siteName = " طنین لوله ";
+  const cityName = " تهران";
   const number = "0206_039_0912"; //REVERS
-  const hiroImage = "/images/avangserviceCom6.jpg"; 
+  const hiroImage = "/images/tanin1.jpg"; 
   return (
     <div className={styles.home}>
     <Navbar siteName={siteName} />
 
       <Header siteName={siteName} cityName={cityName} hiroImage={hiroImage} />
 
-      <Article img="/images/avangserviceCom3.jpg">
+      <Article img="/images/tanin2.jpg" siteName={siteName}>
         {
           <>
             <h2>خدمات فوری {siteName}</h2>
@@ -38,7 +37,7 @@ function HomePage() {
       <AllCards />
       <Statistics />
 
-      <Article img="/images/avangserviceCom5.jpg">
+      <Article img="/images/tanin1.jpg" siteName={siteName}>
         {
           <>
             <h2>نشانه های گرفتگی لوله:</h2>
