@@ -8,7 +8,7 @@ import Statistics from "../../components/statistics/Statistics";
 
 import styles from "./HomePage.module.css";
 function HomePage() {
-  const siteName = " سیار سرویس ";
+  const siteName = " آونگ سرویس ";
   const cityName = " تهران";
   const number = "0206_039_0912"; //REVERS
   const hiroImage = "/images/car1.jpg";
