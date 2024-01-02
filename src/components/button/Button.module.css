@@ -55,6 +55,7 @@
     font-size: 1.5rem;
   }
 }
+
 /*RESPONSIVE BELOW 344px  */
 @media (max-width: 21.5em) {
   .btnBox {
@@ -62,8 +63,22 @@
   }
 
   .btn {
-    padding:1rem 0.7rem;
+    padding:0.6rem 0.4rem;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+}
+
+/*RESPONSIVE BELOW 192px  */
+@media (max-width: 10em) {
+  .btnBox {
+    margin: 0rem;
+    padding: 0;
+  }
+
+  .btn {
+    padding:0.5rem 0rem;
+    font-weight: 400;
+    font-size:0.8rem;
   }
 }

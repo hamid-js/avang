@@ -11,7 +11,7 @@ function HomePage() {
   const siteName = " طنین لوله ";
   const cityName = " تهران";
   const number = "0206_039_0912"; //REVERS
-  const hiroImage = "/images/tanin1.jpg"; 
+  const hiroImage = "/images/tanin3.jpg"; 
   return (
     <div className={styles.home}>
     <Navbar siteName={siteName} />
