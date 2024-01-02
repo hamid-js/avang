@@ -6,27 +6,27 @@ import Navbar from "../../components/header/Navbar";
 import Numbers from "../../components/numbers/Numbers";
 import Statistics from "../../components/statistics/Statistics";
 
-import styles from './HomePage.module.css'
+import styles from "./HomePage.module.css";
 function HomePage() {
-  const siteName = " طنین لوله ";
+  const siteName = " سیار سرویس ";
   const cityName = " تهران";
   const number = "0206_039_0912"; //REVERS
-  const hiroImage = "/images/tanin3.jpg"; 
+  const hiroImage = "/images/car1.jpg";
   return (
     <div className={styles.home}>
-    <Navbar siteName={siteName} />
+      <Navbar siteName={siteName} />
 
       <Header siteName={siteName} cityName={cityName} hiroImage={hiroImage} />
 
-      <Article img="/images/tanin2.jpg" siteName={siteName}>
+      <Article img="/images/car5.jpg" siteName={siteName}>
         {
           <>
             <h2>خدمات فوری {siteName}</h2>
             <ul>
-              <li>لوله بازکنی فوری 24 ساعته</li>
-              <li>رفع گرفتگی چاه</li>
-              <li>درآوردن آشیا ارزشمند از چاه</li>
-              <li>تخلیه چاه فوری</li>
+              <li>تعمیرات سیار خودرو 24 ساعته</li>
+              <li>رفع خرابی خودرو</li>
+              <li>امداد رسانی در کمتر از 20دقیقه</li>
+              <li>امداد رسانی در کمتر از 20دقیقه</li>
               <li>امداد رسانی در کمتر از 20دقیقه</li>
             </ul>
           </>
@@ -37,23 +37,22 @@ function HomePage() {
       <AllCards />
       <Statistics />
 
-      <Article img="/images/tanin1.jpg" siteName={siteName}>
+      <Article img="/images/car2.jpg" siteName={siteName}>
         {
           <>
-            <h2>نشانه های گرفتگی لوله:</h2>
+            <h2>نشانه آسیب به خودرو:</h2>
             <ul>
-              <li>پیچیدن بوی بد فاضلاب در ساختمان و آپارتمان</li>
-              <li>تخلیه نشدن فاضلاب از سینک‌ ظرف‌شویی و روشویی</li>
-              <li>بالا زدن آب سرویس بهداشتی</li>
-              <li>جمع شدن اب درکاسه توالت ایرانی و فرنگی</li>
-              <li>کندشدن خروج اب </li>
-              <li>وجود حشرات موزی در ساختمان </li>
+              <li> صدای بد خودرو</li>
+              <li> صدای بد خودرو</li>
+              <li> صدای بد خودرو</li>
+              <li> صدای بد خودرو</li>
+              <li> صدای بد خودرو</li>
+            
             </ul>
           </>
         }
       </Article>
-      <Cta/>
-
+      <Cta />
     </div>
   );
 }

@@ -12,7 +12,7 @@ function Header( {siteName ,cityName ,hiroImage}) {
             {siteName}
             </h1>
             <h2>
-            لوله‌بازکنی ارزان و فوری {cityName}
+            تعمیرات سیار خودرو ارزان و فوری {cityName}
             </h2>
             <p>
              <span className={styles.boldName}>{siteName}</span>  بیشترین شعبه در همه مناطق  <span className={styles.boldName}>{cityName}</span>  است که دارای ارزانترین قیمت به نسبت همکاران می باشد، این امر موجب شده است که مجموعه ما شعب خود را در تمام نقاط افزایش دهد. <span className={styles.boldName}>{siteName}</span> آماده خدمات رسانی فوری در سراسر  <span className={styles.boldName}>{cityName}</span> میباشد.

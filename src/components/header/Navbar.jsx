@@ -8,7 +8,7 @@ function Navbar( {siteName}) {
            {siteName}
             </Button>
             <Button link={"tel: 09120390206"}>
-            بازدید رایگان
+            مشاوره رایگان
             </Button>
         </div>
     )

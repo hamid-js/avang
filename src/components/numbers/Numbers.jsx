@@ -3,8 +3,8 @@ import styles from "./Numbers.module.css";
 function Numbers({ number, cityName }) {
   return (
     <div className={styles.container}>
-      <h2>لوله بازکنی در همه مناطق {cityName}</h2>
-      <Button link={"tel: 09120390206"}>مدیریت تمام شعب</Button>
+      <h2>تعمیرات سیار سراسر {cityName}</h2>
+      <Button >مدیریت تمام شعب</Button>
       <h3>{number}</h3>
 
       <div className={styles.areaButton}>

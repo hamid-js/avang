@@ -8,7 +8,7 @@ function AddLink() {
       </section>
 
       <section className={styles.adsSection}>
-        <a href="https://sansite.ir" target="blank">سفارش طراحی و ادز</a>
+        <a href="tel:09371355148" target="blank">سفارش طراحی  سایت</a>
       </section>
     </div>
   );
