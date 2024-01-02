@@ -1,4 +1,4 @@
-const siteName ="سیار سرویس"
+const siteName ="آونگ سرویس"
 
 const info = [
   {
