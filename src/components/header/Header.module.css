@@ -6,11 +6,12 @@
   padding: 3rem;
   width: 100%;
   background: var(--site-color-5);
-  background: linear-gradient(90deg, var(--hiro-color-1) 0%, var(--hiro-color-2) 93%);
+  background: linear-gradient(90deg, var(--primary-color-400) 0%, var(--primary-color-800) 93%);
   color: #fff;
 }
 .boldName{
-  color: var(--link-color-2);
+  color: var( --secondary-color-500);
+  font-weight: bold;
 }
 .right {
   width: 65%;
@@ -32,7 +33,7 @@
 }
 
 .texts h1 {
-  color: var(--hiro-color-3);
+  color: var(--title-color);
   margin-bottom:  3rem ;
   font-weight: bold;
 
@@ -40,7 +41,7 @@
 
 }
 .texts h2 {
-  color: var(--hiro-color-3);
+  color: var(--title-color-2);
   margin-bottom:  3.5rem ;
   font-weight: bold;
 
