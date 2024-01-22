@@ -1,31 +1,10 @@
-/* for AddLink file */
 
-.ads {
-  width: 100%;
-  background-color: rgb(43, 43, 43);
-  font-size: 3rem;
-  font-weight: 600;
-  height: 8rem;
-}
-.ads a {
-  text-decoration: none;
-  color: var(--link-color-2);
-}
-.adsSection {
-  display: inline-block;
-  border-left: 3px solid blanchedalmond;
-  border-right: 3px solid blanchedalmond;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  padding: 2rem;
-}
 /* for AddLink file */
 
 .container {
   width: 100%;
   height: auto;
-  background-color: var(--footer-color);
+  background-color: var(--primary-color-950);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -62,14 +41,19 @@
   padding: 0.8rem 1.6rem;
   margin: 1.6rem;
   border-radius: 10px;
-  color: var(--link-color-1);
+  color: var(--secondary-color-500);
   font-weight: 500;
   line-height: 3rem;
+  transition: all .5s;
+}
+.links li:hover {
+  scale: 115%;
+  background-color:var(--secondary-color-100);
 }
 .title {
   margin: 3.6rem 0;
   font-size: 3rem;
-  color: rgb(255, 255, 255);
+  color: var(--primary-color-300);
 }
 
 /*RESPONSIVE BELOW 656px  */

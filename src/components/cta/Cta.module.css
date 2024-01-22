@@ -1,12 +1,12 @@
 .container {
   height: 7.5rem;
   width: 100%;
-  background-color: var(--cta-color);
+  background-color: var(--primary-color-700);
   position: fixed;
+  bottom: 0;
   bottom: 0;
   border-top: 3px solid yellow;
   box-shadow: rgba(255, 243, 11, 0.05) -5px -5px 20px -5px;
-
 }
 
 .container p {
@@ -20,8 +20,13 @@
   font-weight: 600;
 }
 .container span {
-  color: var(--link-color-1);
+  color: var(--secondary-color-500);
+  transition: all 500ms;
 }
+
+.container  span:hover {
+  color: var(--secondary-color-400);
+font-size:4rem ;}
 
 /*RESPONSIVE BELOW 864px  */
 @media (max-width: 54em) {

@@ -1,4 +1,3 @@
-import AddLink from "./AddLink";
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -17,7 +16,6 @@ function Footer() {
           </ul>
         </section>
       </div>
-      <AddLink/>
 
     </footer>
     

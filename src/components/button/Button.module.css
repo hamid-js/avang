@@ -1,13 +1,18 @@
 .btnBox {
   margin: 1rem;
+  transition: all 1s;
+  
+  
+}
+.btnBox:hover {
+  scale: 115%;
 }
 
 .btn {
  
   padding: 1.2rem 3.8rem;
   background-color: var(--button-color);
-  border-radius: 15px;
-  color: #fff;
+  color: var(--text-color);
   font-size: 2.4rem;
   border: none;
   transition: 0.35s;
@@ -16,10 +21,12 @@
 }
 
 .btn:link,.btn:visited {
-  background-color: var(--button-color);
+  background-color:var(--primary-color-500);
 }
 .btn:hover,.btn:active {
-  background-color: var(--title-color);
+  background-color:var(--secondary-color-400);
+  color: var(--text-color-2);
+  font-weight: bold;
 }
 
 /* BELOW 1344px (Smaler desktop) */

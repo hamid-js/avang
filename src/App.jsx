@@ -1,15 +1,17 @@
-import AddLink from "./components/footer/AddLink"
+import Cta from "./components/cta/Cta"
 import Footer from "./components/footer/Footer"
 import HomePage from "./page/home/HomePage"
 
 function App() {
 
   return (
-    <>
+    <main className="main">
     <HomePage/>
+    
     <Footer/>
-    <AddLink/>
-    </>
+
+    <Cta />
+    </main>
   )
 }
 
