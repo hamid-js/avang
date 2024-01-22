@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "iranSans";
   src: url("/fonts/IRANSans-UltraLight-web.ttf") format("ttf");
@@ -54,23 +53,6 @@
   --title-color-2: #eab308;
   --text-color: #fff;
   --text-color-2: #3a3535;
-
-
-
-  --navbar-color: #2e1065; /* 950 */
-  --button-color: #8b5cf6; /* 500 */
-  --hiro-color-1: #a78bfa; /* 400 */
-  --hiro-color-2: #5b21b6; /* 800 */
-  --hiro-color-3: #000;
-
-  --title-color: #000;
-  --cta-color: #4c1d95;
-  --footer-color: darkblue;
-
-  --link-color-1: #1bfc57;
-  --link-color-2: #eda005;
-  --link-color-3: #4632da;
-  --link-color-4: rgb(8, 7, 18);
 }
 
 * {
@@ -95,9 +77,7 @@ body {
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
-.main{
+.main {
   position: relative;
   margin-bottom: 6rem;
 }
-
-

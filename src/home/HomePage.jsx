@@ -1,10 +1,10 @@
-import Article from "../../components/article/Article";
-import AllCards from "../../components/card/AllCards";
-import Cta from "../../components/cta/Cta";
-import Header from "../../components/header/Header";
-import Navbar from "../../components/header/Navbar";
-import Numbers from "../../components/numbers/Numbers";
-import Statistics from "../../components/statistics/Statistics";
+import Article from "../components/article/Article";
+import AllCards from "../components/card/AllCards";
+import Cta from "../components/cta/Cta";
+import Header from "../components/header/Header";
+import Navbar from "../components/header/Navbar";
+import Numbers from "../components/numbers/Numbers";
+import Statistics from "../components/statistics/Statistics";
 
 import styles from "./HomePage.module.css";
 function HomePage() {
